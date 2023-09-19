@@ -60,7 +60,7 @@ table {
 }
 
 #head-container {
-    border-bottom: 2px solid rebeccapurple;
+    /* border-bottom: 2px solid rebeccapurple; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,4 +104,10 @@ table {
 #contact {
     display: flex;
     justify-content:center
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
 }
