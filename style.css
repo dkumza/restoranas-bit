@@ -1,0 +1,112 @@
+/* reset css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* page css */
+
+#head-order-wrap   {
+    border: 2px solid rgb(124, 82, 19);
+    /* background-image: url(/img/order-img.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover; */
+    /* background-position: right bottom, left top; */
+    /* background-repeat: no-repeat; */
+}
+
+#head-container {
+    border-bottom: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+
+#recipes-container > h3 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#order-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#food-container {
+    height: 800px;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-gap: 20px;
+}
+
+#food-container > a > img {
+    border: 1px solid rgb(37, 10, 65);
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+/* 
+.food > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%; */
+/* } */
+#food-container > a:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#contact {
+    display: flex;
+    justify-content:center
+}
